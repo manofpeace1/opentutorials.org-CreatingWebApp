@@ -27,7 +27,7 @@ $result = mysqli_query($conn, "SELECT * FROM topic");
       echo '<li><a href="http://localhost:8080/index.php?id='.$row['id'].'">'.htmlspecialchars($row['title']).'</a></li>'."\n";
     }
     ?>
-        </ ol>
+        </ol>
     </nav>
   <div id="switch">
     <input type="button" value="white" onclick="document.getElementById('target').className='white'"/>
